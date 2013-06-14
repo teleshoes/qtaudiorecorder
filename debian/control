@@ -1,0 +1,15 @@
+Source: qtaudiorecorder
+Section: user/Other
+Priority: extra
+Maintainer: teleshoes <elliot.wolk@gmail.com>
+Build-Depends: debhelper (>= 7), aegis-builder (>= 1.4), pkg-config
+Standards-Version: 3.8.4
+Homepage: https://github.com/teleshoes/qtaudiorecorder
+
+Package: qtaudiorecorder
+Architecture: armel
+Depends: 
+Section: user/other
+Priority: extra
+Description: Record audio files.
+XB-Maemo-Display-Name: Audio Recorder
